@@ -1,0 +1,106 @@
+.single-project{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    min-height: 80vh;
+}
+
+.details-project{
+    padding: 0 8rem 0 6rem;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.details-project .heading1{
+    margin-bottom: 1rem;
+}
+
+.details-project .paragraph{
+    margin-bottom: 0.7rem;
+}
+
+.details-project .paragraph-2{
+    margin-bottom: 3rem;
+}
+
+.project-image{
+    width: 100%;
+    align-self: stretch;
+}
+
+.icons-for-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 6rem;
+}
+
+.slide-icon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 84px;
+    color: #1d1d1d;
+    font-family: "Montserrat";
+    font-weight: 500;
+    transition: all .4s;
+}
+
+.menu-icon{
+    margin-left: -3rem;
+}
+
+
+.slide-icon:hover{
+   color: #10c9c3;
+   transform: scale(1.1);
+
+}
+
+.slide-icon span{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+@media screen and (max-width:768px){
+    .single-project{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-project{
+        padding: 6rem 8rem 6rem 6rem;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    
+}
+
+    .menu-icon{
+    margin: 0;
+}
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:375px){
+    
+    .slide-icon{
+        padding: 2rem;
+    }
+    .slide-icon span{
+        display: none;
+    }
+
+
+
+}

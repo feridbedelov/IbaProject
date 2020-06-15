@@ -1,0 +1,90 @@
+.profile-image{
+    background-image: url("../../assets/profile-image.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+.dark-overlay{
+    background-color: black;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.about-me{
+    position: relative;
+}
+ 
+.about-me-details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+.about-me-details .heading2{
+    line-height: 4.8rem;
+    color: white;
+}
+
+.about-me-details .paragraph{
+    color: white;
+}
+
+.about-section-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+
+.image-about img{
+    width: 100%;
+}
+
+.about-box-container{
+    padding: 2rem 0;
+    background-color: #F5F5F5;
+}
+.about-pic{
+    margin-top: 2rem;
+}
+
+
+.need-a-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 5rem;
+}
+
+.need-a-project .heading2{
+    margin-bottom: 1rem;
+}
+
+.need-a-project .paragraph{
+    margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width:768px){
+    .about-section-2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.need-a-project{
+    
+    width: 70%;
+    margin: auto;
+    
+}
+}

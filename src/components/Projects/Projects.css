@@ -1,0 +1,30 @@
+.project-designer-container{
+    background-color: #F5F5F5;
+    padding: 4rem;
+    
+}
+.project-designer-container .heading2{
+  line-height: 8.4rem;
+    
+}
+
+.project-designer{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+
+@media screen and (max-width:768px){
+  .project-designer-container .heading2{
+  line-height: 4.2rem;
+    
+}
+
+.project-designer{
+  width: 80%;
+}
+
+
+}
+

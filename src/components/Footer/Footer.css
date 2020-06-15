@@ -1,0 +1,58 @@
+.footer{
+    background-color: black;
+    padding: 4rem 0;
+    
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgb(212, 205, 205);
+}
+
+.footer-container > *{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-about h3{
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.footer  span{
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 2.4rem;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+}
+
+
+.footer-nav > *{
+    text-decoration: none;
+    color: white;
+    margin-bottom: .4rem;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+}
+.footer-nav > *:hover{
+    color: #39B4AF;
+}
+
+
+@media screen and (max-width:520px){
+    .footer-nav{
+        display: none;
+    }
+}

@@ -1,0 +1,90 @@
+.contact-form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+.form-group-row{
+    display: flex;
+    margin-top: 1.5rem;
+}
+    
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    width: calc(100% - 1rem);
+}
+
+.form-group > *{
+    margin-top: 0.7rem;
+    font-size: 2rem;
+}
+
+
+.form-group input{
+    padding: 1.4rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+
+}
+
+.form-group .title{
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 2.4rem;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+}
+
+.form-group .comment{
+    font-size: 1.4rem;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.form-group span{
+    color: rgb(226, 32, 32);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.contact-sumbit{
+    text-align: center;
+}
+.contact-form .btn{
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 769px){
+    .form-group-row{
+        display: flex;
+        flex-direction:column ;
+        margin-top: 1rem;
+    }
+
+    .form-group-row .form-group {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width:320px ) and (max-width:425px){
+    .contact-form .btn{
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 1rem 2.4rem;
+    }
+}
